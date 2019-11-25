@@ -16,7 +16,7 @@ void Swap(recordtype &x, recordtype &y){
 	y = tmp;
 }
 
-//thu tuc pushdown
+//thu tuc pushdown..
 void PushDown(recordtype a[], int first, int last){
 	int r = first;
 	while(r <= (last - 1)/2){
